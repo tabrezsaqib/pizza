@@ -12,6 +12,7 @@ function Card(){
         <p>
           This trail flourishes during summer with flowers freshly sprung along both the sides of the path.
         </p>
+        <input value="Buy Now" id="btn" type="submit"/>
       </div>
     </div>
     );
