@@ -1,0 +1,36 @@
+.card {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 gray;
+    border: 5px solid rgb(241, 231, 231);
+  }
+  
+  .cardImg {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(235, 228, 228);
+  }
+  .cardImg img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cardContent {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardContent p,
+  .cardContent h2 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cardContent p {
+    text-align: left;
+  }
